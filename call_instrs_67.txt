@@ -1,0 +1,1066 @@
+
+78k0.w32
+
+CF_CALL call
+CF_CALL callf
+CF_CALL callt
+
+78k064.w64
+
+CF_CALL call
+CF_CALL callf
+CF_CALL callt
+
+78k0s.w32
+
+CF_CALL call
+CF_CALL callt
+
+78k0s64.w64
+
+CF_CALL call
+CF_CALL callt
+
+ad218x.w32
+
+CF_JUMP jump (OP)
+CF_JUMP jump (OP)
+CF_CALL call OP
+CF_CALL call (OP)
+CF_JUMP call (OP)
+CF_JUMP do OP until OP
+
+ad218x64.w64
+
+CF_JUMP jump (OP)
+CF_JUMP jump (OP)
+CF_CALL call OP
+CF_CALL call (OP)
+CF_JUMP call (OP)
+CF_JUMP do OP until OP
+
+alpha.w32
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL jsr_coroutine
+
+alpha64.w64
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL jsr_coroutine
+
+arc.w32
+
+CF_JUMP b
+CF_CALL bl
+CF_JUMP j
+CF_CALL jl
+
+arc64.w64
+
+CF_JUMP b
+CF_CALL bl
+CF_JUMP j
+CF_CALL jl
+
+arm.w32
+
+CF_CALL BL
+CF_JUMP LDR
+CF_JUMP BX
+CF_CALL BLX
+CF_CALL BLX
+CF_JUMP BLX
+CF_JUMP BXJ
+CF_JUMP TBB
+CF_JUMP TBH
+CF_JUMP HB
+CF_JUMP HBL
+CF_JUMP HBLP
+CF_JUMP HBP
+CF_JUMP TBZ
+CF_JUMP TBNZ
+CF_JUMP BR
+CF_CALL BLR
+
+arm64.w64
+
+CF_CALL BL
+CF_JUMP LDR
+CF_JUMP BX
+CF_CALL BLX
+CF_CALL BLX
+CF_JUMP BLX
+CF_JUMP BXJ
+CF_JUMP TBB
+CF_JUMP TBH
+CF_JUMP HB
+CF_JUMP HBL
+CF_JUMP HBLP
+CF_JUMP HBP
+CF_JUMP TBZ
+CF_JUMP TBNZ
+CF_JUMP BR
+CF_CALL BLR
+
+avr.w32
+
+CF_JUMP ijmp
+CF_CALL rcall
+CF_CALL icall
+CF_JUMP icall
+CF_CALL call
+
+avr64.w64
+
+CF_JUMP ijmp
+CF_CALL rcall
+CF_CALL icall
+CF_JUMP icall
+CF_CALL call
+
+c166.w32
+
+CF_CALL calla
+CF_CALL calli
+CF_JUMP calli
+CF_CALL callr
+CF_CALL calls
+CF_JUMP jmpi
+CF_CALL pcall
+
+c16664.w64
+
+CF_CALL calla
+CF_CALL calli
+CF_JUMP calli
+CF_CALL callr
+CF_CALL calls
+CF_JUMP jmpi
+CF_CALL pcall
+
+cli.w32
+
+CF_CALL call
+CF_CALL calli
+CF_CALL callvirt
+
+cli64.w64
+
+CF_CALL call
+CF_CALL calli
+CF_CALL callvirt
+
+dalvik.w32
+
+CF_JUMP packed-switch
+CF_JUMP sparse-switch
+CF_CALL invoke-virtual
+CF_CALL invoke-super
+CF_CALL invoke-direct
+CF_CALL invoke-static
+CF_CALL invoke-interface
+CF_CALL invoke-virtual/range
+CF_CALL invoke-super/range
+CF_CALL invoke-direct/range
+CF_CALL invoke-static/range
+CF_CALL invoke-interface/range
+
+dalvik64.w64
+
+CF_JUMP packed-switch
+CF_JUMP sparse-switch
+CF_CALL invoke-virtual
+CF_CALL invoke-super
+CF_CALL invoke-direct
+CF_CALL invoke-static
+CF_CALL invoke-interface
+CF_CALL invoke-virtual/range
+CF_CALL invoke-super/range
+CF_CALL invoke-direct/range
+CF_CALL invoke-static/range
+CF_CALL invoke-interface/range
+
+dsp56k.w32
+
+CF_JUMP b
+CF_JUMP bra
+CF_JUMP brclr
+CF_JUMP brset
+CF_CALL bs
+CF_CALL bsclr
+CF_CALL bsr
+CF_CALL bsset
+CF_JUMP do
+CF_JUMP do forever,
+CF_JUMP dor
+CF_JUMP dor forever,
+CF_JUMP j
+CF_JUMP jclr
+CF_JUMP jmp
+CF_CALL js
+CF_CALL jsclr
+CF_JUMP jset
+CF_CALL jsr
+CF_CALL jsset
+
+dsp56k64.w64
+
+CF_JUMP b
+CF_JUMP bra
+CF_JUMP brclr
+CF_JUMP brset
+CF_CALL bs
+CF_CALL bsclr
+CF_CALL bsr
+CF_CALL bsset
+CF_JUMP do
+CF_JUMP do forever,
+CF_JUMP dor
+CF_JUMP dor forever,
+CF_JUMP j
+CF_JUMP jclr
+CF_JUMP jmp
+CF_CALL js
+CF_CALL jsclr
+CF_JUMP jset
+CF_CALL jsr
+CF_CALL jsset
+
+f2mc.w32
+
+CF_CALL call
+CF_CALL callv
+CF_CALL callp
+CF_CALL int
+CF_CALL intp
+CF_CALL int9
+
+f2mc64.w64
+
+CF_CALL call
+CF_CALL callv
+CF_CALL callp
+CF_CALL int
+CF_CALL intp
+CF_CALL int9
+
+fr.w32
+
+CF_CALL call
+
+fr64.w64
+
+CF_CALL call
+
+h8.w32
+
+CF_JUMP bra
+CF_CALL bsr
+CF_JUMP jmp
+CF_CALL jsr
+CF_CALL trapa
+CF_CALL bsr/bc
+CF_CALL bsr/bs
+
+h8500.w32
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL pjsr
+
+h850064.w64
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL pjsr
+
+h864.w64
+
+CF_JUMP bra
+CF_CALL bsr
+CF_JUMP jmp
+CF_CALL jsr
+CF_CALL trapa
+CF_CALL bsr/bc
+CF_CALL bsr/bs
+
+hppa.w32
+
+CF_CALL blr
+CF_CALL call
+
+hppa64.w64
+
+CF_CALL blr
+CF_CALL call
+
+i196.w32
+
+CF_JUMP br
+CF_CALL lcall
+CF_CALL scall
+CF_JUMP tijmp
+CF_CALL ecall
+
+i19664.w64
+
+CF_JUMP br
+CF_CALL lcall
+CF_CALL scall
+CF_JUMP tijmp
+CF_CALL ecall
+
+i51.w32
+
+CF_CALL acall
+CF_JUMP jmp
+CF_CALL lcall
+CF_CALL ecall
+
+i5164.w64
+
+CF_CALL acall
+CF_JUMP jmp
+CF_CALL lcall
+CF_CALL ecall
+
+i860.w32
+
+CF_JUMP bri
+CF_CALL call
+CF_CALL calli
+CF_JUMP calli
+
+i86064.w64
+
+CF_JUMP bri
+CF_CALL call
+CF_CALL calli
+CF_JUMP calli
+
+i960.w32
+
+CF_CALL bal
+CF_CALL balx
+CF_CALL call
+CF_CALL calls
+CF_CALL callx
+
+i96064.w64
+
+CF_CALL bal
+CF_CALL balx
+CF_CALL call
+CF_CALL calls
+CF_CALL callx
+
+ia64.w32
+
+
+ia6464.w64
+
+
+java.w32
+
+CF_CALL jsr
+CF_CALL invokevirtual
+CF_CALL invokespecial
+CF_CALL invokestatic
+CF_CALL invokeinterface
+CF_CALL invokedynamic
+CF_CALL invokesuper
+CF_CALL invokevirtualobject
+
+java64.w64
+
+CF_CALL jsr
+CF_CALL invokevirtual
+CF_CALL invokespecial
+CF_CALL invokestatic
+CF_CALL invokeinterface
+CF_CALL invokedynamic
+CF_CALL invokesuper
+CF_CALL invokevirtualobject
+
+kr1878.w32
+
+CF_JUMP jmp
+CF_CALL jsr
+CF_JUMP jnz
+CF_JUMP jz
+CF_JUMP jns
+CF_JUMP js
+CF_JUMP jnc
+CF_JUMP jc
+
+kr187864.w64
+
+CF_JUMP jmp
+CF_CALL jsr
+CF_JUMP jnz
+CF_JUMP jz
+CF_JUMP jns
+CF_JUMP js
+CF_JUMP jnc
+CF_JUMP jc
+
+m16c.w32
+
+CF_JUMP JMP
+CF_JUMP JMPI
+CF_JUMP JMPS
+CF_CALL JSR
+CF_CALL JSRI
+CF_CALL JSRS
+
+m16c64.w64
+
+CF_JUMP JMP
+CF_JUMP JMPI
+CF_JUMP JMPS
+CF_CALL JSR
+CF_CALL JSRI
+CF_CALL JSRS
+
+m32r.w32
+
+CF_CALL bl
+CF_CALL jl
+CF_JUMP jl
+CF_JUMP jmp
+
+m32r64.w64
+
+CF_CALL bl
+CF_CALL jl
+CF_JUMP jl
+CF_JUMP jmp
+
+m65.w32
+
+CF_JUMP JMP
+CF_CALL JSR
+
+m6564.w64
+
+CF_JUMP JMP
+CF_CALL JSR
+
+m65816.w32
+
+CF_CALL JSL
+CF_CALL JSR
+
+m6581664.w64
+
+CF_CALL JSL
+CF_CALL JSR
+
+m740.w32
+
+CF_CALL jsr
+
+m74064.w64
+
+CF_CALL jsr
+
+m7700.w32
+
+CF_CALL jsr
+
+m770064.w64
+
+CF_CALL jsr
+
+m7900.w32
+
+CF_JUMP bra
+CF_JUMP bral
+CF_CALL bsr
+CF_JUMP jmp
+CF_JUMP jmpl
+CF_CALL jsr
+CF_CALL jsrl
+
+m790064.w64
+
+CF_JUMP bra
+CF_JUMP bral
+CF_CALL bsr
+CF_JUMP jmp
+CF_JUMP jmpl
+CF_CALL jsr
+CF_CALL jsrl
+
+mc68.w32
+
+CF_CALL bsr
+CF_JUMP callm
+CF_CALL chk
+CF_CALL chk2
+CF_JUMP jmp
+CF_CALL jsr
+
+mc6812.w32
+
+CF_CALL bsr
+CF_CALL call
+CF_CALL jsr
+CF_CALL jal
+
+mc681264.w64
+
+CF_CALL bsr
+CF_CALL call
+CF_CALL jsr
+CF_CALL jal
+
+mc6816.w32
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL lbsr
+
+mc681664.w64
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL lbsr
+
+mc6864.w64
+
+CF_CALL bsr
+CF_JUMP callm
+CF_CALL chk
+CF_CALL chk2
+CF_JUMP jmp
+CF_CALL jsr
+
+mc8.w32
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL swi
+CF_CALL call
+
+mc864.w64
+
+CF_CALL bsr
+CF_CALL jsr
+CF_CALL swi
+CF_CALL call
+
+mips.w32
+
+CF_CALL jalr
+CF_JUMP jalr
+CF_JUMP jr
+CF_CALL jal
+CF_CALL jalx
+CF_CALL bal
+CF_CALL jal
+CF_CALL jalr
+CF_JUMP jalr
+CF_CALL jalx
+CF_JUMP jr
+CF_CALL jalr.hb
+CF_CALL jalrc
+CF_JUMP jalrc
+CF_JUMP jrc
+CF_CALL jals
+CF_JUMP jraddiusp
+CF_CALL jalrs
+CF_JUMP jalrs
+CF_CALL jalrs.hb
+CF_JUMP jalrs.hb
+
+mips64.w64
+
+CF_CALL jalr
+CF_JUMP jalr
+CF_JUMP jr
+CF_CALL jal
+CF_CALL jalx
+CF_CALL bal
+CF_CALL jal
+CF_CALL jalr
+CF_JUMP jalr
+CF_CALL jalx
+CF_JUMP jr
+CF_CALL jalr.hb
+CF_CALL jalrc
+CF_JUMP jalrc
+CF_JUMP jrc
+CF_CALL jals
+CF_JUMP jraddiusp
+CF_CALL jalrs
+CF_JUMP jalrs
+CF_CALL jalrs.hb
+CF_JUMP jalrs.hb
+
+nec850.w32
+
+CF_JUMP jmp
+CF_CALL jarl
+CF_JUMP switch
+CF_CALL callt
+
+nec85064.w64
+
+CF_JUMP jmp
+CF_CALL jarl
+CF_JUMP switch
+CF_CALL callt
+
+oakdsp.w32
+
+CF_JUMP br
+CF_JUMP brr
+CF_JUMP br
+CF_JUMP brr
+CF_CALL call
+CF_CALL callr
+
+oakdsp64.w64
+
+CF_JUMP br
+CF_JUMP brr
+CF_JUMP br
+CF_JUMP brr
+CF_CALL call
+CF_CALL callr
+
+pc.w32
+
+CF_CALL call
+CF_CALL call
+CF_JUMP call
+CF_CALL call
+CF_JUMP call
+CF_CALL int
+CF_CALL into
+CF_JUMP jmp
+CF_JUMP jmp
+
+pc64.w64
+
+CF_CALL call
+CF_CALL call
+CF_JUMP call
+CF_CALL call
+CF_JUMP call
+CF_CALL int
+CF_CALL into
+CF_JUMP jmp
+CF_JUMP jmp
+
+pdp11.w32
+
+CF_CALL bpt
+CF_CALL iot
+CF_CALL jsr
+CF_CALL emt
+CF_CALL trap
+CF_CALL call
+
+pdp1164.w64
+
+CF_CALL bpt
+CF_CALL iot
+CF_CALL jsr
+CF_CALL emt
+CF_CALL trap
+CF_CALL call
+
+pic.w32
+
+CF_CALL call
+CF_CALL call
+CF_CALL rcall
+
+pic64.w64
+
+CF_CALL call
+CF_CALL call
+CF_CALL rcall
+
+ppc.w32
+
+CF_JUMP b
+CF_JUMP bc
+CF_JUMP bcctr
+CF_JUMP bclr
+CF_JUMP b
+CF_JUMP bt
+CF_JUMP bf
+CF_JUMP bdnz
+CF_JUMP bdnzt
+CF_JUMP bdnzf
+CF_JUMP bdz
+CF_JUMP bdzt
+CF_JUMP bdzf
+CF_JUMP blt
+CF_JUMP ble
+CF_JUMP beq
+CF_JUMP bge
+CF_JUMP bgt
+CF_JUMP bne
+CF_JUMP bso
+CF_JUMP bns
+
+ppc64.w64
+
+CF_JUMP b
+CF_JUMP bc
+CF_JUMP bcctr
+CF_JUMP bclr
+CF_JUMP b
+CF_JUMP bt
+CF_JUMP bf
+CF_JUMP bdnz
+CF_JUMP bdnzt
+CF_JUMP bdnzf
+CF_JUMP bdz
+CF_JUMP bdzt
+CF_JUMP bdzf
+CF_JUMP blt
+CF_JUMP ble
+CF_JUMP beq
+CF_JUMP bge
+CF_JUMP bgt
+CF_JUMP bne
+CF_JUMP bso
+CF_JUMP bns
+
+sam8.w32
+
+CF_JUMP btjrf
+CF_JUMP btjrt
+CF_CALL call
+CF_JUMP cpije
+CF_JUMP cpijne
+CF_JUMP djnz
+CF_JUMP jp
+CF_JUMP jr
+
+sam864.w64
+
+CF_JUMP btjrf
+CF_JUMP btjrt
+CF_CALL call
+CF_JUMP cpije
+CF_JUMP cpijne
+CF_JUMP djnz
+CF_JUMP jp
+CF_JUMP jr
+
+script.w32
+
+
+script64.w64
+
+
+sh3.w32
+
+CF_JUMP braf
+CF_CALL bsr
+CF_CALL bsrf
+CF_JUMP bsrf
+CF_JUMP jmp
+CF_CALL jsr
+CF_JUMP jsr
+
+sh364.w64
+
+CF_JUMP braf
+CF_CALL bsr
+CF_CALL bsrf
+CF_JUMP bsrf
+CF_JUMP jmp
+CF_CALL jsr
+CF_JUMP jsr
+
+sparc.w32
+
+CF_CALL call
+
+sparc64.w64
+
+CF_CALL call
+
+st20.w32
+
+CF_CALL fcall
+CF_CALL call
+CF_CALL gcall
+CF_JUMP gcall
+
+st2064.w64
+
+CF_CALL fcall
+CF_CALL call
+CF_CALL gcall
+CF_JUMP gcall
+
+st7.w32
+
+CF_CALL call
+CF_CALL callr
+
+st764.w64
+
+CF_CALL call
+CF_CALL callr
+
+st9.w32
+
+CF_CALL call
+CF_CALL calls
+
+st964.w64
+
+CF_CALL call
+CF_CALL calls
+
+tms32028.w32
+
+CF_CALL ffc
+CF_CALL intr
+CF_JUMP lb
+CF_CALL lc
+CF_JUMP lc
+CF_CALL lcr
+CF_CALL trap
+CF_JUMP xb
+CF_CALL xcall
+
+tms3202864.w64
+
+CF_CALL ffc
+CF_CALL intr
+CF_JUMP lb
+CF_CALL lc
+CF_JUMP lc
+CF_CALL lcr
+CF_CALL trap
+CF_JUMP xb
+CF_CALL xcall
+
+tms32054.w32
+
+CF_CALL cala
+CF_CALL calad
+CF_CALL call
+CF_CALL calld
+CF_CALL cc
+CF_CALL cc
+CF_CALL ccd
+CF_CALL ccd
+CF_CALL fcala
+CF_CALL fcalad
+CF_CALL fcall
+CF_CALL fcalld
+CF_CALL intr
+CF_CALL trap
+
+tms3205464.w64
+
+CF_CALL cala
+CF_CALL calad
+CF_CALL call
+CF_CALL calld
+CF_CALL cc
+CF_CALL cc
+CF_CALL ccd
+CF_CALL ccd
+CF_CALL fcala
+CF_CALL fcalad
+CF_CALL fcall
+CF_CALL fcalld
+CF_CALL intr
+CF_CALL trap
+
+tms32055.w32
+
+CF_CALL callcc
+CF_CALL call
+
+tms3205564.w64
+
+CF_CALL callcc
+CF_CALL call
+
+tms320c1.w32
+
+CF_JUMP B
+CF_JUMP BANZ
+CF_JUMP BGEZ
+CF_JUMP BGZ
+CF_JUMP BIOZ
+CF_JUMP BLEZ
+CF_JUMP BLZ
+CF_JUMP BNZ
+CF_JUMP BV
+CF_JUMP BZ
+CF_CALL CALA
+CF_CALL CALL
+
+tms320c164.w64
+
+CF_JUMP B
+CF_JUMP BANZ
+CF_JUMP BGEZ
+CF_JUMP BGZ
+CF_JUMP BIOZ
+CF_JUMP BLEZ
+CF_JUMP BLZ
+CF_JUMP BNZ
+CF_JUMP BV
+CF_JUMP BZ
+CF_CALL CALA
+CF_CALL CALL
+
+tms320c3.w32
+
+CF_JUMP br
+CF_JUMP brd
+CF_CALL call
+CF_JUMP swi
+CF_JUMP b
+CF_JUMP db
+CF_CALL call
+CF_JUMP trap
+
+tms320c364.w64
+
+CF_JUMP br
+CF_JUMP brd
+CF_CALL call
+CF_JUMP swi
+CF_JUMP b
+CF_JUMP db
+CF_CALL call
+CF_JUMP trap
+
+tms320c5.w32
+
+CF_JUMP bacc
+CF_JUMP baccd
+CF_CALL cala
+CF_JUMP cala
+CF_CALL calad
+CF_JUMP calad
+CF_CALL call
+CF_CALL calld
+CF_CALL cc
+CF_CALL ccd
+CF_JUMP bacc
+CF_CALL cala
+CF_JUMP cala
+CF_CALL call
+
+tms320c564.w64
+
+CF_JUMP bacc
+CF_JUMP baccd
+CF_CALL cala
+CF_JUMP cala
+CF_CALL calad
+CF_JUMP calad
+CF_CALL call
+CF_CALL calld
+CF_CALL cc
+CF_CALL ccd
+CF_JUMP bacc
+CF_CALL cala
+CF_JUMP cala
+CF_CALL call
+
+tms320c6.w32
+
+
+tms320c664.w64
+
+
+tricore.w32
+
+CF_CALL call16
+CF_CALL call32
+CF_CALL calla
+CF_CALL calli
+CF_CALL fcall
+CF_CALL fcalla
+CF_CALL fcalli
+
+tricore64.w64
+
+CF_CALL call16
+CF_CALL call32
+CF_CALL calla
+CF_CALL calli
+CF_CALL fcall
+CF_CALL fcalla
+CF_CALL fcalli
+
+unsp.w32
+
+CF_CALL call     $0
+
+unsp64.w64
+
+CF_CALL call     $0
+
+xa.w32
+
+CF_JUMP br
+CF_CALL call
+CF_CALL fcall
+CF_JUMP fjmp
+CF_JUMP jmp
+
+xa64.w64
+
+CF_JUMP br
+CF_CALL call
+CF_CALL fcall
+CF_JUMP fjmp
+CF_JUMP jmp
+
+z8.w32
+
+CF_CALL call
+
+z80.w32
+
+CF_CALL call
+CF_CALL cnz
+CF_CALL cz
+CF_CALL cnc
+CF_CALL cc
+CF_CALL cpo
+CF_CALL cpe
+CF_CALL cp
+CF_CALL cm
+CF_JUMP pchl
+CF_CALL call
+
+z8064.w64
+
+CF_CALL call
+CF_CALL cnz
+CF_CALL cz
+CF_CALL cnc
+CF_CALL cc
+CF_CALL cpo
+CF_CALL cpe
+CF_CALL cp
+CF_CALL cm
+CF_JUMP pchl
+CF_CALL call
+
+z864.w64
+
+CF_CALL call
